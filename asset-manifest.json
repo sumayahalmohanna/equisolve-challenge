@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/equisolve-challenge/static/css/main.33e4940b.chunk.css",
-    "main.js": "/equisolve-challenge/static/js/main.6e587059.chunk.js",
-    "main.js.map": "/equisolve-challenge/static/js/main.6e587059.chunk.js.map",
+    "main.css": "/equisolve-challenge/static/css/main.c4a8af47.chunk.css",
+    "main.js": "/equisolve-challenge/static/js/main.1beaecc5.chunk.js",
+    "main.js.map": "/equisolve-challenge/static/js/main.1beaecc5.chunk.js.map",
     "runtime-main.js": "/equisolve-challenge/static/js/runtime-main.3d4accf0.js",
     "runtime-main.js.map": "/equisolve-challenge/static/js/runtime-main.3d4accf0.js.map",
     "static/css/2.818011ed.chunk.css": "/equisolve-challenge/static/css/2.818011ed.chunk.css",
-    "static/js/2.9b9e786d.chunk.js": "/equisolve-challenge/static/js/2.9b9e786d.chunk.js",
-    "static/js/2.9b9e786d.chunk.js.map": "/equisolve-challenge/static/js/2.9b9e786d.chunk.js.map",
+    "static/js/2.d3f06a39.chunk.js": "/equisolve-challenge/static/js/2.d3f06a39.chunk.js",
+    "static/js/2.d3f06a39.chunk.js.map": "/equisolve-challenge/static/js/2.d3f06a39.chunk.js.map",
     "static/js/3.54a73d15.chunk.js": "/equisolve-challenge/static/js/3.54a73d15.chunk.js",
     "static/js/3.54a73d15.chunk.js.map": "/equisolve-challenge/static/js/3.54a73d15.chunk.js.map",
     "index.html": "/equisolve-challenge/index.html",
     "static/css/2.818011ed.chunk.css.map": "/equisolve-challenge/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.33e4940b.chunk.css.map": "/equisolve-challenge/static/css/main.33e4940b.chunk.css.map",
-    "static/js/2.9b9e786d.chunk.js.LICENSE.txt": "/equisolve-challenge/static/js/2.9b9e786d.chunk.js.LICENSE.txt"
+    "static/css/main.c4a8af47.chunk.css.map": "/equisolve-challenge/static/css/main.c4a8af47.chunk.css.map",
+    "static/js/2.d3f06a39.chunk.js.LICENSE.txt": "/equisolve-challenge/static/js/2.d3f06a39.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3d4accf0.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.9b9e786d.chunk.js",
-    "static/css/main.33e4940b.chunk.css",
-    "static/js/main.6e587059.chunk.js"
+    "static/js/2.d3f06a39.chunk.js",
+    "static/css/main.c4a8af47.chunk.css",
+    "static/js/main.1beaecc5.chunk.js"
   ]
 }
