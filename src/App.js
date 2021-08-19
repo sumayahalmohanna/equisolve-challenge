@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import { Container, Row} from 'reactstrap';
+import CardList from './CardList';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+  const [cardData, setCardData] = useState(null);
+
+  useEffect(() => {
+    fetch('https://bensdemo.prod.equisolve-dev.com/api/v1/eq-test')
+    .then(res => {
+      return res.json();
+    })
+    .then(data => {
+      setCardData(data);
+    })
+  }, [])
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <Row><h1 className="pageHeading">Executive Leadership</h1></Row>
+        {cardData && <CardList cards={cardData} />}
+      </Container>
+
     </div>
   );
 }
